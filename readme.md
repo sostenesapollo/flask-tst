@@ -1,14 +1,16 @@
-## flask 
+# Flask 
 
-> Install pipenv
-
-> Install packages in Pipfile
-```sh
-pipenv install
+> Flask env configs
+```bash
+    FLASK_APP=app
+    FLASK_CONFIG=Develop
+    FLASK_ENV=development
 ```
 
-```sh
-export FLASK_APP=app
-export FLASK_ENV=Development
-export FLASK_DEBUG=True
+> Flask commands ( run and database )
+```bash
+    flask run
+    flask db init
+    flask db migrate
+    flask db upgrade
 ```
