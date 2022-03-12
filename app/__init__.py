@@ -10,7 +10,7 @@ def create_app():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
     config_db(app)
-    # config_ma(app)
+    config_ma(app)
 
     Migrate(app, app.db)
 
