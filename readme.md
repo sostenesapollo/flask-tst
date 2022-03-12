@@ -6,7 +6,7 @@
     FLASK_CONFIG=Develop
     FLASK_ENV=development
 ```
-
+****
 > Flask commands ( run and database )
 ```bash
     flask run
